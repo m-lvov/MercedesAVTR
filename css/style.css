@@ -87,8 +87,11 @@ button {
 }
 
 .header__content {
-    background: url("../images/header-bg.png")center top / cover no-repeat;
+    background-image: url("../images/header-bg.png");
     min-height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     /* min-height: min(1200px, calc(100vh - 100px)); */
     display: flex;
     flex-direction: column;
